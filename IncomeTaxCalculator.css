@@ -1,0 +1,78 @@
+.income-tax-calculator {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 600px;
+  }
+  
+  .income-tax-calculator h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .form-section {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-section:hover {
+    background-color: #e9ecef;
+  }
+  
+  .form-section h3 {
+    margin: 0;
+    font-weight: normal;
+    color: #495057;
+  }
+  
+  .calculator-header select,
+  .form-section select,
+  .form-section input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1em;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  .radio-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .radio-group label {
+    margin-bottom: 5px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group input {
+    margin-bottom: 10px;
+  }
+  
+  .calculate-btn {
+    background-color: #61dafb;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .calculate-btn:hover {
+    background-color: #21a1f1;
+  }
